@@ -3,6 +3,7 @@
 ![Platform 5 Logo](https://img.shields.io/badge/Platform%205-Advanced%20AI%20Management-blue?style=for-the-badge&logo=artificial-intelligence)
 
 > **Platform 5** is a unified web interface that centralizes multiple AI providers into organized "Galaxies" - specialized workspaces for different AI interactions and workflows.
+> NOTE : Project is not yet developed completely , Feel free to contrribute.
 
 ## 🌟 Features
 
@@ -258,8 +259,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For support and questions:
 
 - 📧 Email: ahilxdesigns@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/platform5/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-repo/platform5/discussions)
 
 ---
 
