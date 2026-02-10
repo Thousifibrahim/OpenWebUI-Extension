@@ -1,4 +1,4 @@
-# Platform 5 - Advanced AI Management Platform
+# Platform 5 - Fork- Open-Web-UI
 
 ![Platform 5 Logo](https://img.shields.io/badge/Platform%205-Advanced%20AI%20Management-blue?style=for-the-badge&logo=artificial-intelligence)
 
@@ -7,12 +7,12 @@
 
 ## 🌟 Features
 
-- **🌌 Galaxy System**: Organize AI interactions by context and purpose
-- **🔐 Authentication**: Secure user management with JWT tokens
-- **🎨 Modern UI**: Beautiful, responsive design with dark/light mode
-- **🔄 Real-time**: Live conversation updates and status monitoring
-- **📱 PWA Ready**: Progressive Web App capabilities for mobile use
-- **🔌 Multi-Provider**: Support for OpenAI, Anthropic, Local AI, and more
+- *Galaxy System**: Organize AI interactions by context and purpose
+- *Authentication**: Secure user management with JWT tokens
+- *Modern UI**: Beautiful, responsive design with dark/light mode
+- *Real-time**: Live conversation updates and status monitoring
+- *PWA Ready**: Progressive Web App capabilities for mobile use
+- *Multi-Provider**: Support for OpenAI, Anthropic, Local AI, and more
 
 ## 🚀 Quick Start
 
@@ -213,52 +213,6 @@ COPY . /app
 WORKDIR /app
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-1. **Port Already in Use**
-   ```bash
-   # Kill processes on port 8000
-   lsof -ti:8000 | xargs kill -9
-   
-   # Kill processes on port 5100
-   lsof -ti:5100 | xargs kill -9
-   ```
-
-2. **CORS Issues**
-   - Ensure frontend URL is in `CORS_ORIGINS` in `.env`
-   - Check that ports match in configuration files
-
-3. **Authentication Issues**
-   - Verify `SECRET_KEY` is set in `.env`
-   - Check that backend is running and accessible
-
-### Development Tips
-
-- Use browser dev tools to monitor network requests
-- Check backend logs for API errors
-- Frontend state can be inspected with React DevTools
-- Database can be examined at `./platform5.db` (SQLite browser)
-
-## 📞 Support
-
-For support and questions:
-
-- 📧 Email: ahilxdesigns@gmail.com
 
 ---
 
