@@ -1,5 +1,7 @@
 # Platform-5
 
+![stack: TypeScript](https://img.shields.io/badge/stack-TypeScript-3178C6) ![stack: Python](https://img.shields.io/badge/stack-Python-3776AB) ![stack: JavaScript](https://img.shields.io/badge/stack-JavaScript-F7DF1E) ![stack: CSS](https://img.shields.io/badge/stack-CSS-1572B6) ![platform: Web](https://img.shields.io/badge/platform-Web-6f42c1)
+
 Open WebUI Replica Developed a replica of the Open WebUI interface, integrated with local LLMs via LM Studio. Leveraged the Platform5 web application to bridge the backend models with a seamless user interface.
 
 ## Overview
